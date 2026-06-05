@@ -18,6 +18,17 @@
         - T[he Social Construction of The Automobile](http://sjbae.pbworks.com/w/file/fetch/41532772/kline_pinch_1996.pdf)
         - Phreaking Politics
         - Decline of the Wooden Airplane
+        - Radio Broadcasting in America
+            - Sachin
+                - Competition with the military or in the case of AI -- government -- compute and use cases going there. Licensing software engineers instead - or compute is the new spectrum
+            - Ellen 
+                - Reminds of early internet. Not older people, mostly younger people. 
+                - People desire communication, and each time there is a big technology change we get better at communicating with more and more people. 
+            - Venkat 
+                - Armstrong - actually invented - came from the amateur side, was in battle with Lee and RCA
+                - Maker scene people are a bit arrogant and perhaps pollyanish. At some point you need more energy, consistency, discipline 
+                - Titanic - it shows that consistency is hard - cant keep rely on amateur energy. If you dont have extreme identity tied to the thing then you make the social contract that you give up some individualism -- narrow domain specific monarchial. 
+                - Lee D Forest - kind of charlatan, who took the credit.
     - ## Current Affairs
         - [Wizards of Armageddon (Nuclear safety)](https://www.commentary.org/articles/edward-luttwak-2/the-wizards-of-armageddon-strategists-of-the-nuclear-age-by-fred-kaplan)
             - [chat](https://discord.com/channels/692111190851059762/1482022760766242829)
