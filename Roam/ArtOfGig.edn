@@ -572814,7 +572814,7 @@
           [56366 :block/children 56377 537198854]
           [56366 :block/children 56383 537198902]
           [56366 :block/children 56777 537199709]
-          [56366 :block/open false 537199724]
+          [56366 :block/open false 537200673]
           [56366 :block/order 3 537199670]
           [56366 :block/page 4560 537198783]
           [56366 :block/parents 4560 537198783]
@@ -578632,7 +578632,7 @@
           [56975 :block/children 56977 537200522]
           [56975 :block/children 56982 537200555]
           [56975 :block/children 56986 537200583]
-          [56975 :block/open true 537200517]
+          [56975 :block/open false 537200671]
           [56975 :block/order 6 537200517]
           [56975 :block/page 4560 537200518]
           [56975 :block/parents 4560 537200518]
@@ -578877,7 +578877,44 @@
           [57001 :create/time 1780246007005 537200663]
           [57001 :create/user 1318 537200663]
           [57001 :edit/time 1780246012798 537200666]
-          [57001 :edit/user 1318 537200663]],
+          [57001 :edit/user 1318 537200663]
+          [57002 :block/uid "06-07-2026" 537200668]
+          [57002 :create/time 1780855767874 537200668]
+          [57002 :create/user 1 537200668]
+          [57002 :edit/time 1780855767874 537200668]
+          [57002 :edit/user 1 537200668]
+          [57002 :log/id 1780855767873 537200668]
+          [57002 :node/title "June 7th, 2026" 537200668]
+          [57002 :page/edit-nonce "CZ9dRdxU7" 537200668]
+          [57002 :page/edit-time 1780855767874 537200668]
+          [57002 :page/edit-user 1 537200668]
+          [57002 :page/word-count 0 537200668]
+          [57003 :version/id "0.13.9" 537200668]
+          [57003 :version/nonce "uuid46429a9e-4677-451d-8afb-347159c839df" 537200668]
+          [57004 :block/uid "06-16-2026" 537200669]
+          [57004 :create/time 1781620014873 537200669]
+          [57004 :create/user 755 537200669]
+          [57004 :edit/time 1781620014873 537200669]
+          [57004 :edit/user 755 537200669]
+          [57004 :log/id 1781620014871 537200669]
+          [57004 :node/title "June 16th, 2026" 537200669]
+          [57004 :page/edit-nonce "wS5wdkAtb" 537200669]
+          [57004 :page/edit-time 1781620014873 537200669]
+          [57004 :page/edit-user 755 537200669]
+          [57004 :page/word-count 0 537200669]
+          [57005 :version/id "0.13.11" 537200669]
+          [57005 :version/nonce "uuid9c7069ca-40a6-48a9-9280-5252c581deb0" 537200673]
+          [57006 :block/uid "06-23-2026" 537200670]
+          [57006 :create/time 1782162424872 537200670]
+          [57006 :create/user 2604 537200670]
+          [57006 :edit/time 1782162424872 537200670]
+          [57006 :edit/user 2604 537200670]
+          [57006 :log/id 1782162424869 537200670]
+          [57006 :node/title "June 23rd, 2026" 537200670]
+          [57006 :page/edit-nonce "k4mf36Hp5" 537200670]
+          [57006 :page/edit-time 1782162424872 537200670]
+          [57006 :page/edit-user 2604 537200670]
+          [57006 :page/word-count 0 537200670]],
  :schema {:annotation/origin {:db/cardinality :db.cardinality/one, :db/valueType :db.type/ref},
           :append-api/fb-push-key {:db/unique :db.unique/value},
           :attrs/lookup {:db/cardinality :db.cardinality/many, :db/valueType :db.type/ref},
@@ -578917,6 +578954,7 @@
           :node/title {:db/unique :db.unique/identity},
           :node/windows {:db/cardinality :db.cardinality/many, :db/valueType :db.type/ref},
           :page/edit-user {:db/cardinality :db.cardinality/one, :db/valueType :db.type/ref},
+          :pdf/content-hash {:db/unique :db.unique/identity},
           :pdf/fingerprints {:db/unique :db.unique/identity},
           :plugin/id {:db/unique :db.unique/identity},
           :query/results {:db/cardinality :db.cardinality/many, :db/valueType :db.type/ref},

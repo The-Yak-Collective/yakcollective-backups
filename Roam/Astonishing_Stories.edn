@@ -39670,7 +39670,17 @@
           [4217 :page/edit-nonce "KI_jBIiPw" 536883321]
           [4217 :page/edit-time 1775353902050 536883321]
           [4217 :page/edit-user 2301 536883321]
-          [4217 :page/word-count 0 536883321]],
+          [4217 :page/word-count 0 536883321]
+          [4218 :block/uid "07-03-2026" 536883322]
+          [4218 :create/time 1783060638777 536883322]
+          [4218 :edit/time 1783060638777 536883322]
+          [4218 :log/id 1783060638776 536883322]
+          [4218 :node/title "July 3rd, 2026" 536883322]
+          [4218 :page/edit-nonce "QR16kaiWh" 536883322]
+          [4218 :page/edit-time 1783060638777 536883322]
+          [4218 :page/word-count 0 536883322]
+          [4219 :version/id "0.13.12" 536883322]
+          [4219 :version/nonce "uuid4c15d4b6-22ce-42d8-83a1-fc90aa2bb050" 536883322]],
  :schema {:annotation/origin {:db/cardinality :db.cardinality/one, :db/valueType :db.type/ref},
           :append-api/fb-push-key {:db/unique :db.unique/value},
           :attrs/lookup {:db/cardinality :db.cardinality/many, :db/valueType :db.type/ref},
@@ -39710,6 +39720,7 @@
           :node/title {:db/unique :db.unique/identity},
           :node/windows {:db/cardinality :db.cardinality/many, :db/valueType :db.type/ref},
           :page/edit-user {:db/cardinality :db.cardinality/one, :db/valueType :db.type/ref},
+          :pdf/content-hash {:db/unique :db.unique/identity},
           :pdf/fingerprints {:db/unique :db.unique/identity},
           :plugin/id {:db/unique :db.unique/identity},
           :query/results {:db/cardinality :db.cardinality/many, :db/valueType :db.type/ref},
