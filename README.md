@@ -9,19 +9,21 @@ You need:
 - [`edn-tool`](https://github.com/greglook/edn-tool) (v0.2.0 included in this repo)
 - [`msgpack-tools`](https://github.com/ludocode/msgpack-tools)
 - A \*NIX environment (Linux, macOS, or [Windows Subsystem for Linux](https://learn.microsoft.com/en-us/windows/wsl/install))
-- Write access to [this repo](https://github.com/The-Yak-Collective/backups)
+- Write access to [this repo](https://github.com/The-Yak-Collective/yakcollective-backups)
 
 Download the Markdown (note that you'll need to replace `Roam-Export` in the downloaded file name with the graph name), EDN, and msgpack backups of the [Art of Gig](https://roamresearch.com/#/app/ArtOfGig/search) and [Astonishing Stories](https://roamresearch.com/#/app/Astonishing_Stories/search) [Roam Research](https://roamresearch.com/) graphs.
 
 Then, in the directory where you've downloaded those files...
 
 ```bash
-git clone git@github.com:The-Yak-Collective/backups.git
-chmod +x backups/bin/*
+git clone git@github.com:The-Yak-Collective/yakcollective-backups.git
+chmod +x yakcollective-backups/bin/*
 
-ln -sf edn-$(uname | tr "[[:upper:]]" "[[:lower:]]")-amd64 backups/bin/edn
+cd yakcollective-backups
 
-cd backups/Roam
+ln -sf edn-$(uname | tr "[[:upper:]]" "[[:lower:]]")-amd64 bin/edn
+
+cd Roam
 
 unzip -u ../../ArtOfGig-*.zip            -d ArtOfGig
 unzip -u ../../Astonishing_Stories-*.zip -d Astonishing_Stories
